@@ -44,6 +44,7 @@ const SideBar = () => {
       <li className="menu-items"><Link to="/about" className="menu-links" activeClassName="active">About</Link></li>
       <li className="menu-items"><Link to="/projects" className="menu-links" activeClassName="active">Projects</Link></li>
       <li className="menu-items"><Link to="/contact" className="menu-links" activeClassName="active">Contact</Link></li>
+      <li className="menu-items"><Link to="/hello" className="menu-links" activeClassName="active">Hello</Link></li>
     </menu>
 
     <div className="btn-group">
@@ -51,6 +52,7 @@ const SideBar = () => {
       <Link to="/about" className="mob-menu-items" activeClassName="active"><button className="navbtn">About</button></Link>
       <Link to="/projects" className="mob-menu-items" activeClassName="active"><button className="navbtn">Projects</button></Link>
       <Link to="/contact" className="mob-menu-items" activeClassName="active"><button className="navbtn">Contact</button></Link>
+      <Link to="/hello" className="mob-menu-items" activeClassName="active"><button className="navbtn">Hello</button></Link>
     </div>
 
     <div className="sidebar-social">
